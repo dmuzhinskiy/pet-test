@@ -1,12 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>NIGHT ROOM - Creative Modern Onepage Template</title>
 <!--  FAVICON  -->
 <link rel="shortcut icon" href="favicon.ico" />
 <!--  //FAVICON  -->
+
+<!--  JQUERY CSS  -->
+<link rel="stylesheet" type="text/css" href="style/jquery/prettyPhoto.css" />
+<!--  //JQUERY CSS  -->
+
+<!--  ANIMATE CSS  -->
+<link rel="stylesheet" type="text/css" href="style/animate/animate.css" />
+<!--  //ANIMATE CSS  -->
 
 <!--  FONTS  -->
 <link href='http://fonts.googleapis.com/css?family=Lato:400,300,900,700' rel='stylesheet' type='text/css'>
@@ -15,27 +24,903 @@
 
 <!--  CSS  -->
 <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css" />
-<link rel="stylesheet" type="text/css" href="style/choice.style.css" />
+<link rel="stylesheet" type="text/css" href="style/switch.color.css" />
+<link rel="stylesheet" type="text/css" href="style/style.css" />
 <!--  //CSS  -->
+
+
+<!--  THEMES COLOR STYLE  -->
+<link rel="stylesheet" type="text/css" href="style/template_bg/white.background.css" />
+
+<link rel="stylesheet" type="text/css" href="style/template_color/yellow.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/turquoise.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/pink.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/purple.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/green.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/red.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/blue.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/lightgreen.color.css" />
+<link rel="stylesheet" type="text/css" href="style/template_color/lightred.color.css" />
+<!--  //THEMES COLOR STYLE  -->
 
 
 </head>
     
-<body>
-    <div class="wrapper">
-        <div class="container">
-            <!--  LOGO  -->
-            <div class="logo-wrapper">
-                <a href="index.html" class="logo">
-                    <img src="images/logo.png" alt="">
-                </a>
-            </div>
-            <!--  //LOGO  -->
+<body class="red">
+    <!--  PRELOADER  -->
+    <img id="preloader" alt="" src="images/preloader/preloader.GIF">
+    <!--  //PRELOADER  -->
 
+    <div class="page-wrapper">
+
+        <!--  HEADER  -->
+        <header id="haeder" class="header">
+            <div class="container">
+
+                <!--  MENU  -->
+                <em id="mobileMenu" class="glyph icon_menu mobile-menu"></em>
+                <nav id="mainNavi" class="main-navi">
+                    <a href="#about">О нас</a>
+                    <a href="#team">Продукты</a>
+                    <a href="#services">Сервис</a>
+
+                    <!--  LOGO  -->
+                    <a class="logo" href="#home">
+                        <!-- <img src="images/logo.png" alt=""> -->
+                    </a>
+                    <!--  //LOGO  -->
+
+                    <a href="#portfolio">чттто</a>
+                    <a href="#price">вапвап</a>
+                    <a href="#contacts">Контакты</a>
+                </nav> 
+                <!--  //MENU  -->
+            </div>            
+        </header>
+        <!--  //HEADER  -->
+        
+        <section id="home" class="home">
+            <!--  HOME  -->
+            <!--  TOP SLIDER  -->
+            <div class="flexslider">
+                <ul class="slides">
+                    <li class="left">
+                        <div class="slider-text-wrapper left">
+                            <div class="big"><strong>ПЭТ</strong> флаконы</div>
+                            <div class="text-with-line">Надежный распылитель и сбалансированный флакон</div>
+                            <a class="button slide-page" href="#skills">Get started</a>
+                        </div>
+                        <img class="parallax" src="https://img.alicdn.com/imgextra/i1/6000000004614/O1CN01iKvzky1jxG3CJ46Vx_!!6000000004614-0-tbvideo.jpg" alt="">
+                    </li>
+                    <li class="top">
+                        <div class="slider-text-wrapper top">
+                            <div class="big">Изопропиловый<strong> сприрт</strong></div>
+                            <div class="text-with-line">Заводская поставка в любой таре по ГОСТ 9805-84</div>
+                            <a class="button slide-page" href="#skills">Get started</a>
+                        </div>
+                        <img class="parallax" src="https://scanauto.ru/images/!scania/landing-page/trucks/fuel-trucks/fuel-transport.jpg" alt="">
+                    </li>
+                    <li class="left-right">
+                        <div class="slider-text-wrapper zoom">
+                            <div class="big">modern TEMPLATE <strong>for you</strong></div>
+                            <div class="text-with-line">digital agency who loves designing</div>
+                            <a class="button slide-page" href="#skills">Get started</a>
+                        </div>
+                        <img class="parallax" src="images/big-slider/3.jpg" alt="">
+                    </li>
+                </ul>
+            </div>
+            <!--  //TOP SLIDER  -->
+        </section>
+        <!--  //HOME  -->
+
+        <!--  SKILLS  -->
+        <section id="skills" class="skills animate">
+            <div class="container">
+                <div class="row">
+                    <!--  SKILLS BLOG 1  -->
+                    <article class="col-lg-3 col-md-3 col-sm-6 skills-block">
+                        <div class="skills-wrapper">
+                            <em class="glyph icon_puzzle"></em>
+                            <div class="skills-name">Easy Customize</div>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit</p>
+                        </div>
+                    </article>
+                    <!--  //SKILLS BLOG 1  -->
+
+                    <!--  SKILLS BLOG 2  -->
+                    <article class="col-lg-3 col-md-3 col-sm-6 skills-block">
+                        <div class="skills-wrapper">
+                            <em class="glyph icon_pens"></em>
+                        <div class="skills-name">Creative Design</div>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit</p>
+                        </div>
+                    </article>
+                    <!--  //SKILLS BLOG 2  -->
+
+                    <!--  SKILLS BLOG 3  -->
+                    <article class="col-lg-3 col-md-3 col-sm-6 skills-block">
+                        <div class="skills-wrapper">
+                            <em class="glyph icon_star"></em>
+                        <div class="skills-name">100% Responsive</div>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit</p>
+                        </div>
+                    </article>
+                    <!--  //SKILLS BLOG 3  -->
+
+                    <!--  SKILLS BLOG 4  -->
+                    <article class="col-lg-3 col-md-3 col-sm-6 skills-block">
+                        <div class="skills-wrapper">
+                            <em class="glyph icon_easel"></em>
+                        <div class="skills-name">Amazing Support</div>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit</p>
+                        </div>
+                    </article>
+                    <!--  //SKILLS BLOG 4  -->
+                </div>
+            </div>
+        </section>
+        <!--  //SKILLS  -->
+
+        <!--  ABOUT  -->
+        <section id="about" class="about animate">
+            <div class="container">
+                <!--  TITLE  -->
+                <div class="title">
+                    <span>about</span>
+                    <span class="title-bg">about</span>
+                </div>
+                <!--  //TITLE  -->
+
+                <div class="row">
+                    <article class="col-lg-6 col-md-6 col-sm-6 flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/other-images/about.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="images/other-images/about.jpg" alt="">
+                            </li>
+                            <li>
+                                <img src="images/other-images/about.jpg" alt="">
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="col-lg-6 col-md-6 col-sm-6">
+                        <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                        <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit </p>
+                        <a class="button slide-page" href="#services">Show services</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--  //ABOUT  -->
+
+        <!--  TEAM  -->
+        <section id="team" class="team animate">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-3 col-md-3 col-sm-6 member-block">
+                        <!--  MEMBER 1  -->
+                        <div class="member-block-wrapper">
+                            <div class="member-block-animate">
+                                <img src="images/team/1.jpg" alt="">
+                                <div class="name">ПЭТ флакон</div>
+                                <div class="position">100 мл</div>
+                                <p class="mini">Какое-нибудь описание флакона 123 456 789 123</p>
+                            </div>
+                            <div class="member-block-footer">
+                              <a href="#services">Открыть в каталоге</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!--  //MEMBER 1  -->
+
+                    <!--  MEMBER 2  -->
+                    <article class="col-lg-3 col-md-3 col-sm-6 member-block">
+                        <div class="member-block-wrapper">
+                            <div class="member-block-animate">
+                                <img src="images/team/2.jpg" alt="">
+                                <div class="name">ПЭТ флакон</div>
+                                <div class="position">50 мл</div>
+                                <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu.</p>
+                            </div>
+                            <div class="member-block-footer">
+                                <a class="glyph social_twitter" href=""></a>
+                                <a class="glyph social_facebook" href=""></a>
+                                <a class="glyph social_linkedin" href=""></a>
+                                <a class="glyph social_dribbble" href=""></a>
+                            </div>
+                        </div>
+                    </article>
+                    <!--  //MEMBER 2  -->
+
+                    <!--  MEMBER 3  -->
+                    <article class="col-lg-3 col-md-3 col-sm-6 member-block">
+                        <div class="member-block-wrapper">
+                            <div class="member-block-animate">
+                                <img src="images/team/3.jpg" alt="">
+                                <div class="name">Maria Kusharkina</div>
+                                <div class="position">Illustrator</div>
+                                <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu.</p>
+                            </div>
+                            <div class="member-block-footer">
+                                <a class="glyph social_twitter" href=""></a>
+                                <a class="glyph social_facebook" href=""></a>
+                                <a class="glyph social_linkedin" href=""></a>
+                                <a class="glyph social_dribbble" href=""></a>
+                            </div>
+                        </div>
+                    </article>
+                    <!--  //MEMBER 3  -->
+
+                    <!--  MEMBER 4  -->
+                    <article class="col-lg-3 col-md-3 col-sm-6 member-block">
+                        <div class="member-block-wrapper">
+                            <div class="member-block-animate">
+                                <img src="images/team/4.jpg" alt="">
+                                <div class="name">Anton Ponhikov</div>
+                                <div class="position">Ui\Ux Designer</div>
+                                <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu.</p>
+                            </div>
+                            <div class="member-block-footer">
+                                <a class="glyph social_twitter" href=""></a>
+                                <a class="glyph social_facebook" href=""></a>
+                                <a class="glyph social_linkedin" href=""></a>
+                                <a class="glyph social_dribbble" href=""></a>
+                            </div>
+                        </div>
+                    </article>
+                    <!--  //MEMBER 4  -->
+					
+                </div>
+            </div>
+        </section>
+        <!--  //TEAM  -->
+
+        <!--  ACHIEVMENT  -->
+        <section class="achievement images-bg animate parallax1">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-3 col-md-3 col-sm-3 achievement-block">
+                        <span class="calc" data-value="254">0</span>
+                        <div>CUPS OF COFFEE</div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-3 achievement-block">
+                        <span class="calc" data-value="187">0</span>
+                        <div>complite PROJECTS</div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-3 achievement-block">
+                        <span class="calc" data-value="93">0</span>
+                        <div>Happy Clients</div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-3 achievement-block">
+                        <span class="calc" data-value="26">0</span>
+                        <div>winning awards</div>
+                    </article>
+                </div>
+            </div>
+            <img src="images/other-images/achievement.jpg" alt="">
+        </section>
+        <!--  //ACHIEVMENT  -->
+
+        <!--  SERVICE  -->
+        <section id="services" class="services animate">
+            <div class="container">
+                <!--  TITLE  -->
+                <div class="title">
+                    <span>services</span>
+                    <span class="title-bg">services</span>
+                </div>
+                <!--  //TITLE  -->
+                <div class="row">
+                    <article class="col-lg-3 col-md-3 col-sm-3 services-block active">
+                        <div class="services-block-wrapper">
+                            <em class="glyph icon_cog"></em>
+                            <a href="">Development</a>
+                            <em class="border"></em>
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-3 services-block">
+                        <div class="services-block-wrapper">
+                            <em class="glyph icon_like_alt"></em>
+                            <a href="">Design</a>
+                            <em class="border"></em>
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-3 services-block">
+                        <div class="services-block-wrapper">
+                            <em class="glyph icon_globe_alt"></em>
+                            <a href="">Marketing</a>
+                            <em class="border"></em>
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-3 services-block">
+                        <div class="services-block-wrapper">
+                            <em class="glyph icon_headphones"></em>
+                            <a href="">Support</a>
+                            <em class="border"></em>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="services-block-text-wrapper">
+                    <div class="services-block-text-content">
+                        <div class="services-block-text">
+                            <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit </p>
+                        </div>
+                        <div class="services-block-text">
+                            <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit </p>
+                        </div>
+                        <div class="services-block-text">
+                            <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit </p>
+                        </div>
+                        <div class="services-block-text">
+                            <p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                            <p class="mini">Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit Pellentesquemattis arcu malesuada in. Donec urna sem, rutrum sit amet pellentesque vel, suscipit </p>
+                        </div>
+                    </div>                    
+                </div>
+                <a href="#" class="prev-services-block glyph arrow_carrot-left"></a>
+                <a href="#" class="next-services-block glyph arrow_carrot-right"></a>
+                <div class="row">
+                    <article class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="services-line">
+                            <div>
+                                Development
+                                <span data-value="80">0%</span>
+                            </div>
+                            <div class="line">
+                                <span data-style="width:80%"></span>
+                            </div>
+                        </div>
+                        <div class="services-line">
+                            <div>
+                                Design
+                                <span data-value="90">0%</span>
+                            </div>
+                            <div class="line">
+                                <span data-style="width:90%"></span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="services-line">
+                            <div>
+                                Marketing
+                                <span data-value="65">0%</span>
+                            </div>
+                            <div class="line">
+                                <span data-style="width:65%"></span>
+                            </div>
+                        </div>
+                        <div class="services-line">
+                            <div>
+                                Support
+                                <span data-value="75">0%</span>
+                            </div>
+                            <div class="line">
+                                <span data-style="width:75%"></span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--  //SERVICE  -->
+
+        <!--  IDEA  -->
+        <section class="idea images-bg animate">
+            <div class="container">
+                <span>Do you have new ideas for the project?</span><a class="button slide-page" href="#contacts">Contact us</a>
+            </div>
+            <img src="images/other-images/idea.jpg" alt="">
+        </section>
+        <!--  //IDEA  -->
+
+        <!--  PORTFOLIO  -->
+        <section id="portfolio" class="portfolio clearfix animate">
             <!--  TITLE  -->
-            <div class="title">welcome to <strong>nightroom</strong></div>
-            <p>creative and unique agency template</p>
+            <div class="title">
+                <span>portfolio</span>
+                <span class="title-bg">portfolio</span>
+            </div>
             <!--  //TITLE  -->
+
+            <!--  PORTFOLIO FILTER  -->
+            <nav class="portfolio-navi" data-option-key="filter">
+                <a data-option-value="*" class="active" href="">All Projects </a>
+                <a data-option-value=".web-design" href="">Web Design</a>
+                <a data-option-value=".branding" href="">Branding</a>
+                <a data-option-value=".graphic-design" href="">Graphic Design</a>
+                <a data-option-value=".illustration" href="">Illustration</a>
+                <a data-option-value=".application" href="">Application</a>
+                <a data-option-value=".other-projects" href="">Other Projects</a>
+            </nav>
+            <!--  //PORTFOLIO FILTER  -->
+
+            <!--  PORTFOLIO SLIDER  -->
+            <div id="portfolioSlider" class="portfolio-slider">
+
+                <!--  WORK 1  -->
+                <div class="slide web-design" data-category="web-design">
+                    <img src="images/work/1.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/1.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 1  -->
+
+                <!--  WORK 2  -->
+                <div class="slide branding" data-category="web-design">
+                    <img src="images/work/2.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/2.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 2  -->
+
+                <!--  WORK 3  -->
+                <div class="slide graphic-design" data-category="web-design">
+                    <img src="images/work/3.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/3.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 3  -->
+
+                <!--  WORK 4  -->
+                <div class="slide illustration" data-category="web-design">
+                    <img src="images/work/4.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/4.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 4  -->
+
+                <!--  WORK 5  -->
+                <div class="slide application" data-category="web-design">
+                    <img src="images/work/5.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/5.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 5  -->
+
+                <!--  WORK 6  -->
+                <div class="slide other-projects" data-category="web-design">
+                    <img src="images/work/6.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/6.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 6  -->
+
+                <!--  WORK 7  -->
+                <div class="slide web-design" data-category="web-design">
+                    <img src="images/work/7.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/7.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 7  -->
+
+                <!--  WORK 8  -->
+                <div class="slide branding" data-category="web-design">
+                    <img src="images/work/8.jpg" alt="">
+                    <div class="slide-details">
+                        <a data-rel="prettyPhoto[gallery1]" class="button" href="images/work/big/8.jpg">+</a>
+                        <div class="name">Long Project Name</div>
+                        <p class="position">Web design</p>
+                    </div>
+                </div>
+                <!--  //WORK 8  -->
+            </div>
+            <!--  //PORTFOLIO SLIDER  -->
+        </section>
+        <!--  //PORTFOLIO  -->
+
+        <!--  CLIENTS  -->
+        <section class="clients animate">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="">
+                            <img src="images/clients/black-client-logo1.jpg" alt="">
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="">
+                            <img src="images/clients/black-client-logo2.jpg" alt="">
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="">
+                            <img src="images/clients/black-client-logo3.jpg" alt="">
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="">
+                            <img src="images/clients/black-client-logo4.jpg" alt="">
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="">
+                            <img src="images/clients/black-client-logo5.jpg" alt="">
+                        </a>
+                    </article>
+                    <article class="col-lg-2 col-md-2 col-sm-2">
+                        <a href="">
+                            <img src="images/clients/black-client-logo6.jpg" alt="">
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--  //CLIENTS  -->
+
+        <!--  FEEDBACK  -->
+        <section class="feedback images-bg animate parallax2">
+            <div class="container">
+                <div class="feedback-title">What clients say about us</div>
+                <em>“</em>
+                <!--  SLIDER  -->
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Sed posuere consectetur est at lobortis.</p>
+                            <strong>Anna Balashova, Company Name</strong>
+                        </li>
+                        <li>
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Sed posuere consectetur est at lobortis.</p>
+                            <strong>Anna Balashova, Company Name</strong>
+                        </li>
+                        <li>
+                            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Sed posuere consectetur est at lobortis.</p>
+                            <strong>Anna Balashova, Company Name</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <img src="images/other-images/feedback.jpg" alt="">
+        </section>
+        <!--  //FEEDBACK  -->
+
+        <!--  PRICING  -->
+        <section id="price" class="prising clearfix animate">
+            <div class="container">
+                <!--  TITLE  -->
+                <div class="title">
+                    <span>pricing</span>
+                    <span class="title-bg">pricing</span>
+                </div>
+                <!--  //TITLE  -->
+                <div class="row">
+                    <article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block">
+                            <div class="price-title">ПЭТ флакон 100 мл</div>
+                            <img src="images/team/2.jpg" class="price-img" alt="">
+                            <ul>
+                                <li>
+                                    <strong>Объем</strong>
+                                    100 мл
+                                </li>
+                                <li>
+                                    <strong>Вес</strong>
+                                    16 гр / 21 гр
+                                </li>
+                                <li>
+                                    <strong>25</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>3</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Free</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block">
+                            <div class="price-title">Standart Plan</div>
+                            <div class="price-wrapper">
+                                <div class="price">10</div>
+                                <div class="at-month">
+                                    <span>$</span>
+                                    month
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>5</strong>
+                                    Days
+                                </li>
+                                <li>
+                                    <strong>6GB</strong>
+                                    Storage
+                                </li>
+                                <li>
+                                    <strong>50</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>5</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Standart</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block best">
+                            <div class="price-title">Business Plan</div>
+                            <div class="price-wrapper">
+                                <div class="price">25</div>
+                                <div class="at-month">
+                                    <span>$</span>
+                                    month
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>0</strong>
+                                    Days
+                                </li>
+                                <li>
+                                    <strong>10GB</strong>
+                                    Storage
+                                </li>
+                                <li>
+                                    <strong>75</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>10</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Business</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                            <img class="best" src="images/icons/best.png" alt="">
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block">
+                            <div class="price-title">Premium Plan</div>
+                            <div class="price-wrapper">
+                                <div class="price">50</div>
+                                <div class="at-month">
+                                    <span>$</span>
+                                    month
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>50</strong>
+                                    Days
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong>
+                                    Storage
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Premium</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                        </div>
+                    </article>
+					<article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block">
+                            <div class="price-title">Free Plan</div>
+                            <div class="price-wrapper">
+                                <div class="price">0</div>
+                                <div class="at-month">
+                                    <span>$</span>
+                                    month
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>3</strong>
+                                    Days
+                                </li>
+                                <li>
+                                    <strong>2GB</strong>
+                                    Storage
+                                </li>
+                                <li>
+                                    <strong>25</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>3</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Free</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block">
+                            <div class="price-title">Standart Plan</div>
+                            <div class="price-wrapper">
+                                <div class="price">10</div>
+                                <div class="at-month">
+                                    <span>$</span>
+                                    month
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>5</strong>
+                                    Days
+                                </li>
+                                <li>
+                                    <strong>6GB</strong>
+                                    Storage
+                                </li>
+                                <li>
+                                    <strong>50</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>5</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Standart</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block best">
+                            <div class="price-title">Business Plan</div>
+                            <div class="price-wrapper">
+                                <div class="price">25</div>
+                                <div class="at-month">
+                                    <span>$</span>
+                                    month
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>0</strong>
+                                    Days
+                                </li>
+                                <li>
+                                    <strong>10GB</strong>
+                                    Storage
+                                </li>
+                                <li>
+                                    <strong>75</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>10</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Business</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                            <img class="best" src="images/icons/best.png" alt="">
+                        </div>
+                    </article>
+                    <article class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="price-block">
+                            <div class="price-title">Premium Plan</div>
+                            <div class="price-wrapper">
+                                <div class="price">50</div>
+                                <div class="at-month">
+                                    <span>$</span>
+                                    month
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <strong>50</strong>
+                                    Days
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong>
+                                    Storage
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong>
+                                    Users
+                                </li>
+                                <li>
+                                    <strong>Unlimited</strong>
+                                    Domens
+                                </li>
+                                <li>
+                                    <strong>Premium</strong>
+                                    Support
+                                </li>
+                            </ul>
+                            <a class="button" href="">Select plan</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--  //PRICING  -->
+
+        <!--  BUY NOW  -->
+        <section class="buy-now animate">
+            <div class="container">
+                <div class="buy-now-text">
+                    <div>This is the best template</div>
+                    for html is not it it's best?
+                </div>
+                <a class="button black" href="">Buy now</a>
+                <div class="images-wrapper"></div>
+                <div class="images-bg">
+                    <img src="images/other-images/buy-now.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--  //BUY NOW  -->
+
+        <!--  CONTACTS  -->
+        <section id="contacts" class="contacts animate">
+            <div class="container">
+                <!--  TITLE  -->
+                <div class="title">
+                    <span>contacts</span>
+                    <span class="title-bg">contacts</span>
+                </div>
+                <!--  //TITLE  -->
+
+                <div class="rsow">
 <script id="bx24_form_button" data-skip-moving="true">
         (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
                 (w[b].forms=w[b].forms||[]).push(arguments[0])};
@@ -46,56 +931,53 @@
 
         b24form({"id":"9","lang":"ru","sec":"h57s6h","type":"button","click":""});
 </script><button class="b24-web-form-popup-btn-9">Мы перезвоним вам</button>
-            <!--  ROW  -->
-            <div class="design-wrapper row">
-                <div class="col-md-3 col-md-3 col-sm-3">
-                    <div>Image Slider</div>
-                    <a target="_blank" href="slider/index.html">
-                        <img src="images/theme-images/1.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="slider/index.html">View demo</a>
-                </div>
-                <div class="col-md-3 col-md-3 col-sm-3">
-                    <div>Parallax Slider</div>
-                    <a target="_blank" href="parallax/index.html">
-                        <img src="images/theme-images/2.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="parallax/index.html">View demo</a>
-                </div>
-                <div class="col-md-3 col-md-3 col-sm-3">
-                    <div>Video Background</div>
-                    <a target="_blank" href="video/index.html">
-                        <img src="images/theme-images/3.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="video/index.html">View demo</a>
-                </div>
-                <div class="col-md-3 col-md-3 col-sm-3">
-                    <div>Pattern Background</div>
-                    <a target="_blank" href="pattern/index.html">
-                        <img src="images/theme-images/4.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="pattern/index.html">View demo</a>
-                </div>
-                <div class="col-md-3 col-md-3 col-sm-3">
-                    <div>Light Version</div>
-                    <a target="_blank" href="light/index.html">
-                        <img src="images/theme-images/5.jpg" alt="">
-                    </a>
-                    <a target="_blank" href="light/index.html">View demo</a>
                 </div>
             </div>
-            <!--  //ROW  -->
-        </div>
-        <div class="bg"></div>
-    </div>
-	
+        </section>
+        <!--  //CONTACTS  -->
+
+        <!--  FOOTER  -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <article class="col-lg-6 col-md-6 col-sm-6">
+                        <a class="logo slide-page" href="#home">
+                            <img src="images/logo-mini.png" alt="">
+                        </a>
+                        <span>© Copyright 2014 by Evatheme. All Rights Reserved.</span>
+                    </article>
+                    <article class="col-lg-6 col-md-6 col-sm-6">
+                        <a class="glyph social_twitter" href=""></a>
+                        <a class="glyph social_facebook" href=""></a>
+                        <a class="glyph social_linkedin" href=""></a>
+                        <a class="glyph social_pinterest" href=""></a>
+                        <a class="glyph social_dribbble" href=""></a>
+                        <a id="moveTop" class="arrow-up glyph arrow_carrot-up" href=""></a>
+                    </article>
+                </div>
+            </div>
+        </footer>
+        <!--  //FOOTER  -->
+
+    </div>    
+
+<!--  JQUERY SCRIPT  --> 
 <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
-<script type="text/javascript">
-    $('.design-wrapper a').on('mouseenter', function(){
-        $(this).parent().addClass('animate');
-    }).on('mouseleave', function(){
-        $(this).parent().removeClass('animate');
-    });
-</script>
+<script type="text/javascript" src="js/jquery/jquery.mb.YTPlayer.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.countTo.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.isotope.min.js"></script>
+<!--  //JQUERY SCRIPT  --> 
+
+<!--  BOOTSTRAP SCRIPT  --> 
+<script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+<!--  //BOOTSTRAP SCRIPT  --> 
+
+<!--  SITE SCRIPT  --> 
+<script type="text/javascript" src="js/custom.script.js"></script>
+<!--  //SITE SCRIPT  --> 
 </body>
 </html>
